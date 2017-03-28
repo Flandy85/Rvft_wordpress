@@ -1,0 +1,26 @@
+.single-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: auto;
+}
+.single-content-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	// justify-content: center;
+	// align-items: center;
+	width: 60%;
+}
+.single-content-img > img {
+	margin: 10px 10px 0 0;
+	width: 400px;
+	height: auto;
+}
+.single-content {
+	text-align: left;
+	width: 500px;
+}

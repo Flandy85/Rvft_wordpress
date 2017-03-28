@@ -1,0 +1,20 @@
+@import "normalize";
+@import "base";
+@import "main";
+@import "contactus";
+@import "skargard";
+@import "single";
+
+@media only screen and (min-width : 1550px) and (max-width : 2000px) {
+	@import "desktop";
+}
+
+@media only screen and (min-width : 644px) and (max-width : 1024px) {
+	@import "tablet";
+}
+@media only screen and (min-width : 607px) and (max-width : 644px) {
+	@import "mobileandtablets";
+}
+@media only screen and (min-width : 270px) and (max-width : 606px) {
+	@import "mobile";
+}

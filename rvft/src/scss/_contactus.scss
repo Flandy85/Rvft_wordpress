@@ -1,0 +1,71 @@
+/*******************************
+		CONTACT US PAGE
+*******************************/
+.contact-us-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.company-contact-field {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 50%;
+	min-height: 100%;
+}
+.company-contact-field > h2 {
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	margin-left: 6em;
+}
+.contact-person {
+	display: inline-block;
+	width: 30%;
+	flex-wrap: wrap;
+}
+.contact-person > ul {
+	padding: 0;
+	margin: 0;
+}
+.contact-person > ul > li > a {
+	color: black;
+	text-decoration: none;
+}
+.contact-person > ul > li > a:hover {
+	font-weight: bold;
+	color: #248cc8;
+}
+.company-contact {
+	margin-top: 1em;
+	display: inline-block;
+	width: 60%;
+}
+.company-contact > p > a {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: black;
+}
+.company-contact > p > a:hover {
+	font-weight: bold;
+	color: #248cc8;
+}
+
+.profile-img {
+	width: 100px;
+	height: 100px;
+}
+.contact-form-7-field {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.contact-form-7-field > h2 {
+	margin-left: 5.5em;
+}
+.wpcf7-form {
+	margin-left: 8em;
+}

@@ -1,0 +1,73 @@
+.header-container {
+	height: 100px;
+
+}
+.logo {
+	margin: 12px 0 0 0;
+}
+.menu-main-menu-container > ul > li > a:hover {
+	// padding: 5px 5px 5px 5px;
+	background-color: transparent;
+	color: #248cc8;
+}
+.main-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.about-container {
+	width: 100%;
+}
+.enviroment-container {
+	width: 100%;
+}
+footer {
+	height: auto;
+}
+.contact {
+	font-size: 1em;
+}
+/*****************************
+		CONTACT US PAGE 
+*****************************/
+.company-contact-field {
+	width: 100%;
+}
+.company-contact-field > h2 {
+	margin-left: 4em;
+}
+.contact-form-7-field {
+	width: 100%;
+}
+
+/*****************************
+	SKÄRGÅRDS POSTFLOW PAGE
+*****************************/
+.skargard-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.skargard-content {
+	width: 49%;
+}
+/****************************
+	PAGE SINGLE(PHP) POST
+****************************/
+.single-content-img > img {
+	width: 100%;
+}
+/***************************
+	PAGE 404
+***************************/
+.404-pic {
+	width: 100%;
+}
+.404-pic > img {
+	width: 100%;
+}
+.error-img {
+	width: 100%;
+}
